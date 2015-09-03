@@ -1,0 +1,15 @@
+[user]
+	name = Ben Rich
+	email = ben.rich@ericsson.com
+[core]
+	autocrlf = false
+	filemode = false
+	compression = -1
+	bigFileThreshold = 512
+[http]
+	postBuffer = 524288000
+	proxy = www-proxy.ericsson.se:8080
+[push]
+	default = simple
+[https]
+	proxy = www-proxy.ericsson.se:8080
