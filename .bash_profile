@@ -8,8 +8,6 @@ fi
 # User specific environment and startup programs
 SONAR_RUNNER_HOME=/home/brich/Software/SONAR_RUNNER_HOME
 
-export GOROOT="/usr/local/go"
-export GOPATH="$HOME/Development_Git/go_tests"
 
 PATH=$PATH:/mongodb/bin:$GOROOT/bin:/sbin:/opt/Qt/5.4/gcc_64/bin:$HOME/.local/bin:$HOME/bin:$SONAR_RUNNER_HOME/bin
 
