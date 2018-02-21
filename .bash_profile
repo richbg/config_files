@@ -21,10 +21,6 @@ export PATH
 source $HOME/.keychain/$HOSTNAME-sh
 ### End-Keychain ###
 
-#CVSROOT=:pserver:brich@cvs:/usr/local/cvsroot
-#export CVSROOT 
-#CVS_RSH=/usr/bin/ssh
-
 
 #RUBYOPT=rubygems
 #export RUBYOPT=rubygems
