@@ -22,8 +22,5 @@ source $HOME/.keychain/$HOSTNAME-sh
 ### End-Keychain ###
 
 
-#RUBYOPT=rubygems
-#export RUBYOPT=rubygems
-
 #THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
 [[ -s "/home/brich/.gvm/bin/gvm-init.sh" ]] && source "/home/brich/.gvm/bin/gvm-init.sh"
