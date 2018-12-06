@@ -8,6 +8,10 @@ fi
 # User specific environment and startup programs
 SONAR_RUNNER_HOME=/home/brich/Software/SONAR_RUNNER_HOME
 
+function kube_all {
+kubectl get pod,svc,statefulset,ingress,pvc,role,rolebinding
+}
+
 
 PATH=$PATH:/mongodb/bin:$GOROOT/bin:/sbin:/opt/Qt/5.4/gcc_64/bin:$HOME/.local/bin:$HOME/bin:$SONAR_RUNNER_HOME/bin
 
